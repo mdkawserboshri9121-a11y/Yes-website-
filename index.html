@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="YES — স্বাগতম আমাদের ওয়েবসাইটে।">
+  <title>YES | Welcome</title>
+  <style>
+    :root{--navy:#10234d;--blue:#2563eb;--sky:#eaf2ff;--ink:#172033}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,"Noto Sans Bengali",sans-serif;color:var(--ink);background:#f7f9fd;line-height:1.65}
+    header{background:var(--navy);color:white;padding:18px 7%;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+    .logo{font-size:30px;font-weight:900;letter-spacing:3px}
+    nav{display:flex;gap:22px;flex-wrap:wrap}
+    nav a{color:white;text-decoration:none;font-weight:600}
+    nav a:hover{color:#93c5fd}
+    .hero{padding:82px 7%;text-align:center;background:linear-gradient(135deg,#10234d,#2563eb);color:white}
+    .hero h1{font-size:clamp(42px,8vw,72px);margin:0 0 12px;letter-spacing:5px}
+    .hero p{font-size:clamp(17px,3vw,22px);max-width:650px;margin:0 auto 28px;color:#e3edff}
+    .btn{display:inline-block;background:white;color:#1742a0;padding:12px 24px;border-radius:999px;text-decoration:none;font-weight:800}
+    main{max-width:1050px;margin:auto;padding:48px 7%}
+    .intro{text-align:center;margin-bottom:34px}
+    .intro h2{font-size:30px;margin:0 0 8px;color:var(--navy)}
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+    .card{background:white;border:1px solid #e3eaf5;border-radius:18px;padding:24px;box-shadow:0 8px 25px #142b5010}
+    .card h3{margin-top:0;color:#1d4ed8}
+    .contact{margin-top:35px;background:var(--sky);padding:28px;border-radius:18px;text-align:center}
+    footer{text-align:center;padding:22px;background:#0b1733;color:#dbeafe}
+    @media(max-width:560px){header{justify-content:center}nav{justify-content:center;gap:14px}.hero{padding:60px 6%}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">YES</div>
+    <nav aria-label="প্রধান নেভিগেশন">
+      <a href="#home">হোম</a><a href="#about">আমাদের সম্পর্কে</a><a href="#services">সেবা</a><a href="#contact">যোগাযোগ</a>
+    </nav>
+  </header>
+  <section class="hero" id="home">
+    <h1>YES</h1>
+    <p>স্বাগতম! এটি আপনার নিজের ওয়েবসাইট। নতুন ভাবনা, নতুন সম্ভাবনা—শুরু হোক এখান থেকেই।</p>
+    <a class="btn" href="#about">আরও জানুন</a>
+  </section>
+  <main>
+    <section class="intro" id="about">
+      <h2>আমাদের সম্পর্কে</h2>
+      <p>YES একটি সাধারণ ওয়েবসাইটের নমুনা। এখানে আপনার পরিচিতি, কাজ এবং প্রয়োজনীয় তথ্য যোগ করতে পারবেন।</p>
+    </section>
+    <section class="cards" id="services">
+      <article class="card"><h3>আমাদের লক্ষ্য</h3><p>সহজ ও সুন্দরভাবে আপনার ভাবনা সবার কাছে তুলে ধরা।</p></article>
+      <article class="card"><h3>আমাদের সেবা</h3><p>আপনার পছন্দমতো তথ্য, ছবি ও সেবার বিবরণ এখানে যোগ করুন।</p></article>
+      <article class="card"><h3>আপডেট</h3><p>নতুন খবর, ঘোষণা বা গুরুত্বপূর্ণ তথ্য এই অংশে প্রকাশ করুন।</p></article>
+    </section>
+    <section class="contact" id="contact">
+      <h2>যোগাযোগ করুন</h2>
+      <p>আপনার ইমেইল বা ফোন নম্বর এখানে বসান।</p>
+      <p><strong>Email:</strong> yourname@example.com</p>
+    </section>
+  </main>
+  <footer>© 2026 YES. সর্বস্বত্ব সংরক্ষিত।</footer>
+</body>
+</html>
